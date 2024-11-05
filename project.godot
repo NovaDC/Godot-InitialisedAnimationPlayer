@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="InitialisedAnimationPlayer"
+config/description="A animation player that plays a specified animation on _ready, if the specified animation exists. Enabling or disabling this plugin does nothing."
+config/version="v1.0.0.0"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+boot_splash/image="res://addons/initialised_animation_player/initialised_animation_player.png"
+config/icon="res://addons/initialised_animation_player/initialised_animation_player.svg"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
