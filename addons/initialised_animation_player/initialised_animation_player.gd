@@ -5,6 +5,7 @@ extends AnimationPlayer
 
 ## InitialisedAnimationPlayer
 ##
+## @deprecated: As of Godot v4.2.1, the ability to set animations to play on ready is built in.
 ## A animation player that plays a specified animation on [method Node._ready],
 ## if the specified animation exists.
 
