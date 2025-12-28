@@ -10,9 +10,10 @@ config_version=5
 
 [application]
 
-config/name="InitialisedAnimationPlayer"
-config/description="A animation player that plays a specified animation on _ready, if the specified animation exists. Enabling or disabling this plugin does nothing."
-config/version="v1.0.0.0"
+config/name="Godot-InitialisedAnimationPlayer"
+config/description="A animation player that plays a specified animation on _ready, if the specified animation exists.
+As of Godot v4.2.1, the ability to set animations to play on ready is built in. This plugin is intended for use in previous versions."
+config/version="v1.0.1.0"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 boot_splash/image="res://icon.png"
 config/icon="res://addons/initialised_animation_player/icon.svg"
