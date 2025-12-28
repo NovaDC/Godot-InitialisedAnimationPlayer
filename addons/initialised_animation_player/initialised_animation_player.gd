@@ -26,13 +26,14 @@ extends AnimationPlayer
 ## Play the [member initial_animation] from the end.
 @export var from_end := false
 
-func _ready():
+func _ready() -> void:
 	play_initial_animation()
 	animation_libraries_updated.connect(update_configuration_warnings)
 	animation_list_changed.connect(update_configuration_warnings)
 
 ## Plays the [member initial_animation] as specified.
-func play_initial_animation():
+## Does nothing if the specified animation is not defined in this player.
+func play_initial_animation() -> void:
 	if has_animation(initial_animation):
 		play(initial_animation, custom_blend, custom_speed, from_end)
 
