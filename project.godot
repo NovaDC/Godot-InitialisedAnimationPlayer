@@ -13,7 +13,7 @@ config_version=5
 config/name="InitialisedAnimationPlayer"
 config/description="A animation player that plays a specified animation on _ready, if the specified animation exists. Enabling or disabling this plugin does nothing."
 config/version="v1.0.0.0"
-config/features=PackedStringArray("4.3", "GL Compatibility")
+config/features=PackedStringArray("4.5", "GL Compatibility")
 boot_splash/image="res://addons/initialised_animation_player/initialised_animation_player.png"
 config/icon="res://addons/initialised_animation_player/initialised_animation_player.svg"
 
