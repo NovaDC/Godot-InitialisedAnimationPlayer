@@ -1,5 +1,5 @@
 @tool
-@icon("res://addons/initialised_animation_player/icon.svg")
+@icon("./icon.svg")
 class_name InitialisedAnimationPlayer
 extends AnimationPlayer
 
